@@ -1,4 +1,14 @@
-# is [![GoDoc](https://godoc.org/github.com/matryer/is?status.png)](http://godoc.org/github.com/matryer/is) [![Go Report Card](https://goreportcard.com/badge/github.com/matryer/is)](https://goreportcard.com/report/github.com/matryer/is)
+# Why?
+I don't like indirect dependencies coming with `stretchr/testify`.  
+And I usually needed only fraction of its features.  
+I searched for a simpler assert library and found [matryer/is](https://github.com/matryer/is), which is delicious.  
+But it doesn't have JSON equality assertion (see [issues/59](https://github.com/matryer/is/issues/59))
+
+This is fork adds `JSONEqual` method. (and removes pre-go1.7 support)
+
+---
+
+# is 
 Professional lightweight testing mini-framework for Go.
 
 * Easy to write and read
